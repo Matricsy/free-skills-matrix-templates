@@ -16,6 +16,10 @@ With Matricsy you can:
 - Boost your CV with a clean PDF summary that replaces generic skill bullet points
 
 ---
+## List of live examples:
+
+- React: https://matricsy.com/shared/react-skills-matrix-for-frontend-developer
+---
 
 ## 🚀 What this repo contains
 

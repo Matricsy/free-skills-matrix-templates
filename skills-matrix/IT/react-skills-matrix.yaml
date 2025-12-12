@@ -1,0 +1,228 @@
+# Live version: https://matricsy.com/shared/react-skills-matrix-for-frontend-developer
+
+categories:
+    category: Core React Concepts
+    level1:
+      - "Components & JSX: Create functional components using JSX syntax, understand the difference between JSX and HTML, write components that accept props and render UI elements, use basic JSX expressions and conditional rendering"
+      - "Props & Data Flow: Pass data from parent to child components via props, understand one-way data flow in React, use props to customize component behavior and appearance, destructure props in function parameters"
+      - "State Basics: Use useState hook to manage local component state, update state correctly using setState functions, understand state immutability and why direct mutations should be avoided, handle simple form inputs with state"
+      - "Event Handling: Handle user interactions (onClick, onChange, onSubmit) with event handlers, prevent default browser behavior when needed, pass event handlers as props to child components, understand synthetic events"
+      - "Rendering & Lists: Render lists of data using map() function, use keys correctly in lists to help React identify changes, conditionally render components using ternary operators or logical AND, understand when components re-render"
+      - "Component Composition: Compose components together to build complex UIs, understand parent-child component relationships, pass components as props (children prop), create reusable component patterns"
+      - "Basic Lifecycle: Understand component mounting, updating, and unmounting concepts, use useEffect hook for basic side effects (API calls, subscriptions), clean up effects to prevent memory leaks"
+      - "Development Tools: Use React DevTools to inspect component tree and state, understand browser console warnings and errors, use Vite or Next.js to bootstrap new projects (Create React App only for maintaining legacy apps), follow basic project structure conventions"
+    level2:
+      - "Advanced State Management: Manage complex state with useReducer hook, understand when to use useState vs useReducer, implement state lifting patterns to share state between components, handle derived state correctly"
+      - "Effect Hook Mastery: Use useEffect with proper dependency arrays, understand cleanup functions and when they run, handle async operations in effects correctly, prevent infinite loops in useEffect"
+      - "Context API: Use React Context to share data across component tree without prop drilling, create and consume context providers, understand when Context is appropriate vs prop passing, avoid unnecessary re-renders with Context"
+      - "Refs & DOM Access: Use useRef hook to access DOM elements directly, understand when refs are necessary vs state, use refs for imperative operations (focus, scroll, animations), forward refs to child components when needed"
+      - "Custom Hooks: Create custom hooks to extract and reuse stateful logic, follow hooks rules (only call at top level, only in React functions), share logic between components using custom hooks, test custom hooks effectively"
+      - "Performance Basics: Use React.memo to prevent unnecessary re-renders, understand when memoization is beneficial, identify performance bottlenecks using React DevTools Profiler, implement basic code splitting with lazy loading"
+      - "Error Handling: Implement Error Boundaries to catch component errors, handle errors gracefully in async operations, provide fallback UI for error states, log errors appropriately for debugging"
+      - "Advanced Patterns: Use render props pattern for component composition, understand Higher-Order Components (HOCs) and their use cases, implement compound components pattern, use controlled vs uncontrolled components appropriately"
+    level3:
+      - "Advanced Hooks: Master all built-in hooks (useMemo, useCallback, useLayoutEffect, useImperativeHandle), understand hook dependencies and optimization strategies, create complex custom hooks that combine multiple hooks, handle edge cases in hook implementations"
+      - "State Architecture: Design scalable state management architecture, decide between local state, Context, and external state libraries, implement state normalization patterns, handle complex state updates and side effects"
+      - "Performance Optimization: Implement advanced memoization strategies (React.memo, useMemo, useCallback), optimize re-render cycles using React DevTools, implement virtual scrolling for large lists, use code splitting and lazy loading effectively"
+      - "Component Patterns: Design and implement advanced component patterns (compound components, render props, HOCs), create flexible and reusable component APIs, build component libraries with consistent patterns, document component usage and APIs"
+      - "React Internals: Understand React reconciliation algorithm and virtual DOM, explain how React batches updates, understand fiber architecture concepts, optimize components based on React internals knowledge"
+      - "Testing React Components: Write comprehensive unit tests for components using React Testing Library, test user interactions and state changes, mock hooks and context in tests, achieve high test coverage with meaningful tests"
+      - "TypeScript Integration: Use TypeScript effectively with React (typing props, state, refs, events), create reusable type definitions for components, leverage TypeScript for better developer experience and type safety, handle complex generic types in React"
+      - "Mentorship & Best Practices: Mentor junior developers on React concepts, establish coding standards and best practices, conduct code reviews focusing on React patterns, create documentation and examples for team"
+    level4:
+      - "Architecture Leadership: Design React application architecture for large-scale applications, establish patterns and conventions across teams, make strategic decisions on state management solutions, guide technology choices (Redux, Zustand, Jotai, etc.)"
+      - "Performance Excellence: Establish performance budgets and monitoring, optimize applications at scale, implement advanced performance patterns (concurrent rendering, transitions), lead performance optimization initiatives across teams"
+      - "React Ecosystem: Evaluate and integrate React ecosystem tools and libraries, stay current with React roadmap and new features, make decisions on framework adoption (Next.js, Remix, etc.), contribute to open-source React projects"
+      - "Advanced Patterns & Innovation: Pioneer new patterns and approaches in React development, solve complex architectural challenges, design reusable component systems and design systems, create internal tools and abstractions"
+      - "Team Development: Lead React development teams, establish training programs, create internal React documentation and standards, mentor senior developers on advanced concepts"
+      - "Strategic Planning: Align React development with business objectives, make technology investment decisions, represent React engineering in executive discussions, plan long-term technical roadmaps"
+    level5:
+      - "Organizational React Strategy: Define company-wide React development standards and practices, establish React as strategic technology choice, influence React adoption across product lines, set vision for React development excellence"
+      - "Industry Leadership: Represent organization in React community, contribute to React core or major libraries, speak at conferences, publish thought leadership on React, influence React ecosystem direction"
+      - "Innovation & Research: Drive innovation in React development practices, research and prototype cutting-edge React features, make decisions on experimental React features adoption, shape future of React development in organization"
+      - "Technical Excellence: Solve most complex React challenges at organizational scale, establish React development as competitive advantage, ensure React applications meet highest quality standards, drive continuous improvement in React practices"
+      - "Strategic Influence: Influence React technology decisions at C-suite level, make strategic technology partnerships, represent React engineering in board-level discussions, shape long-term technology strategy"
+
+    category: React Hooks
+    level1:
+      - "Basic Hooks: Use useState for component state management, understand state updates and batching, use useEffect for side effects (API calls, subscriptions), understand dependency arrays and when effects run"
+      - "Context Hook: Use useContext to consume React Context values, understand when to use Context vs props, avoid overusing Context for frequently changing values"
+      - "Rules of Hooks: Follow Rules of Hooks (only call at top level, only in React functions), understand why hooks have these rules, recognize and fix common hooks violations"
+      - "Effect Cleanup: Implement cleanup functions in useEffect to prevent memory leaks, understand when cleanup runs, clean up timers, subscriptions, and event listeners"
+    level2:
+      - "Advanced State Hooks: Use useReducer for complex state logic, understand reducer pattern and actions, combine useState and useReducer appropriately, handle async state updates correctly"
+      - "Memoization Hooks: Use useMemo to memoize expensive calculations, use useCallback to memoize functions, understand when memoization provides value vs overhead, identify unnecessary re-renders"
+      - "Ref Hook: Use useRef for mutable values that persist across renders, access DOM elements with refs, avoid using refs for state that should trigger re-renders, forward refs to child components"
+      - "Layout Effects: Use useLayoutEffect for DOM measurements and synchronous updates, understand difference between useEffect and useLayoutEffect, use appropriately to prevent visual flicker"
+      - "Custom Hooks: Create custom hooks to extract reusable logic, share stateful logic between components, follow hooks naming conventions (use prefix), test custom hooks effectively"
+    level3:
+      - "Advanced Custom Hooks: Create complex custom hooks combining multiple built-in hooks, handle async operations in custom hooks, create hooks for common patterns (useDebounce, useThrottle, useLocalStorage), design hook APIs for reusability"
+      - "Imperative Handle: Use useImperativeHandle to customize ref values exposed to parent components, understand when imperative APIs are necessary, combine with forwardRef appropriately"
+      - "Hook Optimization: Optimize hook dependencies to prevent unnecessary re-renders, use exhaustive-deps ESLint rule effectively, understand closure issues in hooks, handle stale closures correctly"
+      - "Testing Hooks: Write comprehensive tests for custom hooks using renderHook from @testing-library/react, test hook behavior in isolation, mock dependencies in hook tests"
+      - "Hook Patterns: Implement advanced hook patterns (useReducer + Context for global state, hook composition, hook factories), create hook libraries for team use, document hook APIs and usage"
+    level4:
+      - "Hook Architecture: Design hook-based architecture for large applications, establish patterns for state management with hooks, create internal hook libraries and utilities, guide team on hook best practices"
+      - "Advanced Patterns: Pioneer new hook patterns and abstractions, solve complex state management challenges with hooks, create reusable hook ecosystems, contribute hook patterns to open source"
+      - "Performance with Hooks: Optimize application performance using advanced hook techniques, establish performance patterns with hooks, mentor team on hook optimization strategies"
+    level5:
+      - "Hook Strategy: Define organizational standards for hook usage, influence React hooks ecosystem direction, establish hook patterns as competitive advantage, drive innovation in hook-based architectures"
+
+    category: State Management
+    level1:
+      - "Local State: Manage component state with useState hook, understand when state should be local vs shared, lift state up to common ancestor when needed, handle form state with controlled components"
+      - "Context Basics: Use React Context API for simple global state, understand Context provider and consumer pattern, avoid using Context for frequently changing values"
+      - "State Updates: Update state correctly using functional updates, understand state batching, handle async state updates properly, avoid state update race conditions"
+    level2:
+      - "Context Patterns: Implement Context patterns for theme, authentication, and user preferences, optimize Context to prevent unnecessary re-renders, split Contexts by concern, use multiple Contexts appropriately"
+      - "State Libraries: Use state management libraries (Zustand, Jotai, Recoil) for complex state, understand when to use external libraries vs Context, integrate state libraries with React hooks"
+      - "Redux Basics: Understand Redux principles (store, actions, reducers), use Redux Toolkit for modern Redux development, connect React components to Redux store, dispatch actions and select state"
+      - "State Normalization: Normalize nested state structures, understand benefits of normalized state, implement selectors for derived state, handle relationships in normalized state"
+    level3:
+      - "Advanced Redux: Implement Redux middleware (thunks, sagas), use Redux Toolkit Query for data fetching, create reusable Redux patterns, optimize Redux performance with selectors and memoization"
+      - "State Architecture: Design state management architecture for applications, choose appropriate state management solution, implement state persistence (localStorage, sessionStorage), handle state synchronization"
+      - "Server State: Manage server state with libraries (React Query, SWR, Apollo), handle caching, invalidation, and synchronization, implement optimistic updates, manage loading and error states"
+      - "State Testing: Write tests for state management logic, test reducers, actions, and selectors, mock state in component tests, test state transitions and side effects"
+    level4:
+      - "State Strategy: Define state management strategy for large applications, establish patterns and conventions, guide team on state management decisions, evaluate and adopt new state management solutions"
+      - "Advanced Patterns: Implement advanced state patterns (state machines with XState, reactive state with MobX), solve complex state synchronization challenges, create state management abstractions"
+      - "Performance Optimization: Optimize state management for performance at scale, implement state normalization strategies, reduce unnecessary re-renders from state changes, profile and optimize state updates"
+    level5:
+      - "State Architecture Vision: Define organizational state management standards, influence state management technology choices, establish state management as strategic capability, drive innovation in state management patterns"
+
+    category: Performance & Optimization
+    level1:
+      - "Basic Optimization: Understand React rendering cycle, identify unnecessary re-renders, use React DevTools to inspect component performance, follow basic performance best practices"
+      - "Code Splitting: Use React.lazy() for code splitting, implement Suspense boundaries, understand when to split code, load components on demand"
+      - "Bundle Size: Understand bundle size impact, use production builds, analyze bundle with tools (webpack-bundle-analyzer), identify and remove unused dependencies"
+    level2:
+      - "Memoization: Use React.memo to prevent unnecessary re-renders, apply useMemo for expensive calculations, use useCallback for function memoization, understand memoization trade-offs"
+      - "Profiling: Use React DevTools Profiler to identify performance bottlenecks, analyze render times and component updates, optimize based on profiling data, measure performance improvements"
+      - "Virtualization: Implement virtual scrolling for long lists (react-window, react-virtualized), understand when virtualization is needed, optimize list rendering performance"
+      - "Image Optimization: Optimize images (lazy loading, responsive images, WebP format), use next/image or similar tools, implement image placeholders and loading states"
+    level3:
+      - "Advanced Memoization: Implement strategic memoization across application, optimize Context providers to prevent cascading re-renders, use memoization libraries when appropriate, measure memoization effectiveness"
+      - "Concurrent Features: Use React 18+ concurrent features (startTransition, useDeferredValue), implement non-blocking updates, prioritize urgent vs non-urgent updates, understand concurrent rendering benefits"
+      - "Performance Monitoring: Implement performance monitoring and metrics, track Core Web Vitals, set up performance budgets, monitor and alert on performance regressions"
+      - "Advanced Optimization: Implement advanced optimization techniques (worker threads, Web Workers, service workers), optimize for mobile devices, implement progressive enhancement strategies"
+    level4:
+      - "Performance Strategy: Establish performance standards and budgets, lead performance optimization initiatives, guide team on performance best practices, make architectural decisions for performance"
+      - "Advanced Techniques: Implement cutting-edge performance techniques, optimize applications at scale, use advanced profiling and analysis tools, pioneer performance optimization patterns"
+      - "Performance Culture: Foster performance-first culture, establish performance as non-negotiable requirement, mentor team on performance optimization, measure and report performance impact"
+    level5:
+      - "Performance Excellence: Define organizational performance standards, establish performance as competitive advantage, influence industry performance practices, drive innovation in React performance optimization"
+
+    category: Server Components & Frameworks
+    level1:
+      - "Next.js Basics: Understand Next.js framework and its benefits, create pages using file-based routing, use Next.js Image and Link components, understand Server-Side Rendering (SSR), Static Site Generation (SSG), Incremental Static Regeneration (ISR) and Client-Side Rendering (CSR), know the difference between the App Router and the legacy Pages Router"
+      - "Server Components: Understand concept of Server Components (React Server Components), differentiate Server Components from Client Components, use \"use client\" directive appropriately, fetch data in Server Components"
+      - "Data Fetching: Fetch data in Server Components using async/await, understand when to use Server vs Client Components, handle loading and error states in Server Components"
+    level2:
+      - "Next.js App Router: Use Next.js App Router for routing, understand layout components and nested layouts, implement route groups and dynamic routes, use route handlers for API endpoints"
+      - "Server Actions: Use Server Actions for form submissions and mutations, understand Server Actions security model, implement progressive enhancement with Server Actions, handle errors in Server Actions"
+      - "Streaming & Suspense: Implement streaming with Suspense boundaries, use loading.tsx and error.tsx files, understand streaming SSR benefits, handle partial page rendering, configure caching and revalidation for data fetching (cache options, revalidate settings)"
+      - "Metadata & SEO: Use Next.js metadata API for SEO, implement dynamic metadata, use Open Graph and Twitter cards, optimize for search engines"
+    level3:
+      - "Advanced Server Components: Design applications using Server Components architecture, optimize Server Component performance, handle authentication and authorization in Server Components, implement advanced data fetching patterns, use cache and revalidation strategies effectively across routes"
+      - "Framework Patterns: Master Next.js patterns (middleware, intercepting routes, parallel routes), implement advanced routing strategies, use framework features effectively, optimize Next.js applications"
+      - "Alternative Frameworks: Understand and evaluate React frameworks (Remix, Gatsby, Astro), choose appropriate framework for use case, understand trade-offs between frameworks, migrate between frameworks when needed"
+      - "Full-Stack React: Build full-stack applications with React frameworks, integrate databases and APIs, implement authentication and authorization, handle file uploads and storage"
+    level4:
+      - "Framework Strategy: Define framework adoption strategy, guide team on framework choices, establish patterns and conventions for framework usage, evaluate and adopt new framework features"
+      - "Architecture Leadership: Design framework-based architecture for large applications, establish best practices, optimize framework usage at scale, mentor team on framework patterns"
+      - "Innovation: Pioneer new patterns with React frameworks, contribute to framework ecosystem, evaluate experimental features, drive framework adoption decisions"
+    level5:
+      - "Framework Vision: Define organizational framework strategy, influence framework technology choices, establish frameworks as strategic capability, drive innovation in React framework usage"
+
+    category: Testing React Applications
+    level1:
+      - "Unit Testing: Write basic unit tests for React components using Jest, test component rendering and props, use React Testing Library for component tests, understand test assertions and matchers"
+      - "User Interactions: Test user interactions (clicks, form submissions, input changes), use fireEvent or userEvent for simulating interactions, verify state changes after interactions"
+      - "Test Setup: Configure testing environment (Jest, Vitest), set up React Testing Library, understand test file structure, run and debug tests"
+    level2:
+      - "Advanced Testing: Test async operations and API calls, mock fetch and API responses, test loading and error states, handle timers and delays in tests"
+      - "Hooks Testing: Test custom hooks in isolation, test hook behavior with different inputs, mock dependencies in hook tests, test hook cleanup functions"
+      - "Context & State: Test components using Context, mock Context providers in tests, test state management logic, verify state updates and side effects"
+      - "Integration Testing: Write integration tests for component interactions, test complete user flows, verify data flow between components, test routing and navigation"
+    level3:
+      - "E2E Testing: Set up and write end-to-end tests (Playwright, Cypress), test complete user journeys, handle authentication in E2E tests, test across different browsers and devices"
+      - "Testing Strategy: Develop comprehensive testing strategy, balance unit, integration, and E2E tests, establish testing standards and coverage goals, implement CI/CD testing pipelines"
+      - "Advanced Techniques: Use advanced testing techniques (snapshot testing, visual regression testing), test accessibility, implement test utilities and helpers, optimize test performance"
+      - "Test Maintenance: Maintain test suites effectively, refactor tests alongside code, handle test flakiness, document testing patterns and best practices"
+    level4:
+      - "Testing Leadership: Establish testing standards and practices across teams, guide testing strategy decisions, mentor team on testing best practices, implement testing tools and infrastructure"
+      - "Quality Assurance: Ensure high test coverage and quality, establish testing as part of development culture, measure and improve testing effectiveness, integrate testing into development workflow"
+    level5:
+      - "Testing Excellence: Define organizational testing standards, establish testing as strategic capability, drive innovation in testing practices, ensure testing excellence across all React development"
+
+    category: TypeScript & Type Safety
+    level1:
+      - "Basic Types: Use TypeScript basic types (string, number, boolean, array, object), type component props with interfaces or types, understand type inference, fix common type errors"
+      - "Component Types: Type functional components and their props using typed Props interfaces, prefer explicit function types (React.FC only when it is a team convention), type event handlers (onClick, onChange), type the children prop explicitly when needed"
+      - "Hooks Types: Type useState with generics, type useEffect dependencies, type custom hooks, understand type inference in hooks"
+    level2:
+      - "Advanced Types: Use TypeScript advanced types (union, intersection, generic types), create reusable type definitions, use utility types (Partial, Pick, Omit), type complex data structures"
+      - "React Types: Type Context providers and consumers, type refs with useRef and forwardRef, type higher-order components, type render props and compound components"
+      - "Type Safety: Achieve strict type safety in React applications, use strict TypeScript configuration, avoid using \"any\" type, leverage type narrowing and type guards"
+    level3:
+      - "Complex Types: Create complex generic types for reusable components, type advanced patterns (HOCs, render props, state machines), use conditional types and mapped types, design type-safe APIs"
+      - "Type Patterns: Establish TypeScript patterns for React development, create type utilities and helpers, document type usage, mentor team on TypeScript best practices"
+      - "Type Safety Excellence: Ensure type safety across large codebases, use TypeScript for runtime validation when needed, integrate types with testing, maintain type definitions for libraries"
+    level4:
+      - "TypeScript Strategy: Define TypeScript standards and practices, guide team on type safety decisions, establish type patterns as organizational standard, evaluate TypeScript tooling and configurations"
+    level5:
+      - "Type Safety Vision: Establish type safety as organizational standard, drive TypeScript adoption and best practices, influence type safety practices across organization"
+
+    category: Build Tools & Development Tooling
+    level1:
+      - "Build Tools: Use Vite or Next.js to bootstrap projects (Create React App only for legacy codebases), understand basic build configuration, run development and production builds, understand build output"
+      - "Package Management: Use npm or yarn to manage dependencies, understand package.json, install and update packages, understand semantic versioning"
+      - "Development Tools: Use React DevTools effectively, configure ESLint for code quality, use Prettier for code formatting, understand basic Git workflow"
+    level2:
+      - "Build Configuration: Configure build tools (Vite, Webpack, Turbopack), customize build settings, optimize build performance, understand build process and output"
+      - "Code Quality: Configure ESLint with React rules, set up Prettier for consistent formatting, use Husky for Git hooks, implement pre-commit checks"
+      - "Development Environment: Set up development environment effectively, configure hot module replacement, use environment variables, set up debugging configurations"
+      - "Dependency Management: Manage dependencies effectively, understand dependency resolution, use lock files correctly, audit and update dependencies for security"
+    level3:
+      - "Advanced Build Configuration: Customize build tools for complex requirements, implement custom webpack/Vite plugins, optimize bundle size and build times, configure code splitting strategies"
+      - "Tooling Infrastructure: Set up comprehensive development tooling, implement monorepo setups (Turborepo, Nx), configure CI/CD pipelines, establish development standards"
+      - "Performance Tooling: Use performance analysis tools, implement bundle analysis, set up performance monitoring, optimize development and build workflows"
+    level4:
+      - "Tooling Strategy: Define build and tooling standards, guide team on tooling decisions, establish development infrastructure, evaluate and adopt new tools"
+    level5:
+      - "Tooling Excellence: Establish tooling as strategic capability, drive innovation in development tooling, ensure best-in-class developer experience across organization"
+
+    category: Accessibility (a11y)
+    level1:
+      - "Basic Accessibility: Use semantic HTML elements, provide alt text for images, ensure proper heading hierarchy, use ARIA labels when necessary"
+      - "Keyboard Navigation: Ensure all interactive elements are keyboard accessible, implement proper tab order, handle keyboard events (Enter, Space, Arrow keys), provide visible focus indicators"
+      - "Screen Readers: Test with screen readers, use proper ARIA attributes, ensure content is announced correctly, understand screen reader navigation patterns"
+    level2:
+      - "ARIA Patterns: Use ARIA attributes correctly (aria-label, aria-labelledby, aria-describedby), implement ARIA live regions for dynamic content, use proper ARIA roles, avoid ARIA misuse"
+      - "Form Accessibility: Create accessible forms with proper labels, provide error messages and validation feedback, ensure form controls are properly associated, implement accessible form patterns"
+      - "Testing Accessibility: Use accessibility testing tools (axe, WAVE, Lighthouse), test with keyboard only, test with screen readers, fix accessibility issues"
+    level3:
+      - "Advanced Accessibility: Implement complex accessible patterns (modals, dropdowns, tabs), ensure WCAG 2.1 AA compliance, handle focus management in dynamic UIs, implement accessible animations"
+      - "Accessibility Leadership: Establish accessibility standards, mentor team on accessibility, conduct accessibility audits, ensure accessibility in component libraries"
+    level4:
+      - "Accessibility Strategy: Define organizational accessibility standards, ensure accessibility compliance, drive accessibility initiatives, establish accessibility as core requirement"
+    level5:
+      - "Accessibility Excellence: Establish accessibility as organizational standard, drive inclusive design practices, ensure all React applications meet highest accessibility standards"
+
+    category: Security Best Practices
+    level1:
+      - "XSS Prevention: Understand Cross-Site Scripting (XSS) vulnerabilities, use React default XSS protection, avoid dangerouslySetInnerHTML when possible, sanitize user input"
+      - "Authentication: Implement secure authentication patterns, handle tokens securely, avoid storing sensitive data in localStorage, understand authentication vs authorization"
+      - "Dependencies: Keep dependencies updated, use npm audit to find vulnerabilities, understand security implications of third-party libraries"
+    level2:
+      - "Secure Patterns: Implement secure coding patterns, handle sensitive data correctly, use HTTPS for all communications, implement Content Security Policy (CSP)"
+      - "Input Validation: Validate and sanitize all user inputs, prevent injection attacks, implement proper error handling without exposing sensitive information"
+      - "Security Testing: Conduct security audits, use security scanning tools, test for common vulnerabilities, implement security headers"
+    level3:
+      - "Advanced Security: Implement advanced security measures, handle authentication and authorization securely, protect against CSRF attacks, implement secure session management"
+      - "Security Leadership: Establish security standards, mentor team on security best practices, conduct security reviews, ensure security in all React applications"
+    level4:
+      - "Security Strategy: Define organizational security standards, ensure security compliance, drive security initiatives, establish security as core requirement"
+    level5:
+      - "Security Excellence: Establish security as organizational standard, drive secure development practices, ensure all React applications meet highest security standards"
+
