@@ -1,24 +1,12 @@
 # Free Skills & Competency Matrix Templates
 
-Free skills & competency matrix templates for modern engineering teams.  
+
+Free skills & competency matrix templates for modern engineering teams. 
 Create your own at **[Matricsy.com](https://matricsy.com)**.
 
-> Replace spreadsheets with a clear, structured competency matrix for teams.
-
-With Matricsy you can:
-
-### For teams & companies
-- Build and maintain a clear competency matrix in one place
-- Track skills, spot gaps, and share public or private matrices
-
-### For job seekers
-- Assess and present your skills using a transparent matrix
-- Boost your CV with a clean PDF summary that replaces generic skill bullet points
-
----
 ## List of live examples:
-
 - React: https://matricsy.com/shared/react-skills-matrix-for-frontend-developer
+
 ---
 
 ## 🚀 What this repo contains
@@ -33,6 +21,16 @@ It’s ideal if you want to:
 
 All templates in this repository follow the formats used in Matricsy and will be kept up to date as the application evolves.  
 Additional templates and improvements will be added over time.
+
+
+## With Matricsy you can:
+### For teams & companies
+- Build and maintain a clear competency matrix in one place
+- Track skills, spot gaps, and share public or private matrices
+
+### For job seekers
+- Assess and present your skills using a transparent matrix
+- Boost your CV with a clean PDF summary that replaces generic skill bullet points
 
 ---
 ## 🤝 Contributing
